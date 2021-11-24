@@ -23,7 +23,7 @@ function setup() {
   ghost = createSprite(200, 200, 50, 50);
   ghost.addAnimation("standing", ghostImg);
   ghost.scale = 0.4;
-  ghost.debug = true;
+  //ghost.debug = true;
   ghost.setCollider("circle", 0, 0, 100)
 
 
